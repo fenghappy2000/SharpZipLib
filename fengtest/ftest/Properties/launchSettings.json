@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ftest": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\Administrator\\Desktop\\temp\\cmdtest\\genmd5\\store_game_mini.zip"
+    }
+  }
+}

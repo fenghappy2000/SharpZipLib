@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Configuration", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICSharpCode.SharpZipLib", "src\ICSharpCode.SharpZipLib\ICSharpCode.SharpZipLib.csproj", "{C53BEB8A-0989-43A7-B3EC-F7028749FA71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ftest", "fengtest\ftest\ftest.csproj", "{85C3BAF1-8CB9-4473-8F9E-60ED1C3B042E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{C53BEB8A-0989-43A7-B3EC-F7028749FA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C53BEB8A-0989-43A7-B3EC-F7028749FA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C53BEB8A-0989-43A7-B3EC-F7028749FA71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85C3BAF1-8CB9-4473-8F9E-60ED1C3B042E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85C3BAF1-8CB9-4473-8F9E-60ED1C3B042E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85C3BAF1-8CB9-4473-8F9E-60ED1C3B042E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85C3BAF1-8CB9-4473-8F9E-60ED1C3B042E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

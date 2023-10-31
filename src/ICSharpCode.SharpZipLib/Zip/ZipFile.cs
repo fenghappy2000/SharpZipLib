@@ -3745,7 +3745,8 @@ namespace ICSharpCode.SharpZipLib.Zip
 		/// The local header signature is invalid, the entry and central header file name lengths are different
 		/// or the local and entry compression methods dont match
 		/// </exception>
-		private long LocateEntry(ZipEntry entry)
+		//private long LocateEntry(ZipEntry entry)
+		public long LocateEntry(ZipEntry entry)
 		{
 			return TestLocalHeader(entry, SkipLocalEntryTestsOnLocate ? HeaderTest.None : HeaderTest.Extract);
 		}
